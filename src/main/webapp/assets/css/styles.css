@@ -1,0 +1,118 @@
+.login-body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-wrapper {
+    background-color: #fff;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.login-input-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+
+.login-label {
+    flex: 1;
+}
+
+.login-input {
+    flex: 2;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid #f0f0f0;
+}
+
+.login-button {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: cornflowerblue;
+    color: white;
+    cursor: pointer;
+}
+
+.student-body {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.student-container {
+    background-color: #fff;
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.student-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.student-logout-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.student-logout-btn {
+    background-color: salmon;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.student-table {
+    width: 100%;
+    border-spacing: 0;
+}
+
+.table-header {
+    background-color: cornflowerblue;
+    font-weight: 600;
+    color: #f0f0f0;
+}
+
+.table-header-title {
+    padding: 10px;
+}
+
+.table-row {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #bbbbbb;
+}
+
+.student-id-btn {
+    background-color: lightblue;
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+
+
+
+
