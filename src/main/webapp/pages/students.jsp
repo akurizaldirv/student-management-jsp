@@ -9,7 +9,8 @@
 <html>
 <head>
     <title>Student Management - Daftar Siswa</title>
-    <link rel="stylesheet" href="../assets/css/styles.css">
+    <script src="../assets/js/scrips.js"></script>
+    <link rel="stylesheet" href="../assets/css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -30,17 +31,12 @@
                 <td class="table-header-title">Department</td>
                 <td class="table-header-title">Student ID</td>
                 <td class="table-header-title">Marks</td>
-                <td class="table-header-title" onclick="showData('john doe')">Pass (%)</td>
+                <td class="table-header-title">Pass (%)</td>
             </thead>
             <tbody>
                 ${content}
             </tbody>
         </table>
     </div>
-    <script>
-        function showData(name) {
-            alert(name);
-        }
-    </script>
 </body>
 </html>
